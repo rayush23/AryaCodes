@@ -1,0 +1,101 @@
+/* client_appointments.css */
+
+/* Logo text styling */
+header .logo {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+  }
+  
+  header .logo a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #007bff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  header .logo a:hover {
+    color: #0056b3;
+  }
+  
+  /* Base */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navigation */
+  header nav {
+    background: #fff;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  header nav ul {
+    margin: 0;
+    padding: 10px 20px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 15px;
+  }
+  header nav ul li a {
+    color: #333;
+    text-decoration: none;
+    padding: 6px 10px;
+    transition: background 0.2s, color 0.2s;
+  }
+  header nav ul li a:hover {
+    background: #e0e0e0;
+    border-radius: 4px;
+  }
+  
+  /* Main container */
+  main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+  
+  /* Page title */
+  main h1 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 24px;
+  }
+  
+  /* Appointments table */
+  #client-appts {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  #client-appts thead {
+    background: #f2f2f2;
+  }
+  #client-appts th,
+  #client-appts td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  #client-appts tbody tr:nth-child(even) {
+    background: #fafafa;
+  }
+  #client-appts tbody tr:hover {
+    background: #f1f1f1;
+  }
+  
+  /* “No data” message */
+  p.message {
+    text-align: center;
+    font-size: 1rem;
+    color: #666;
+    margin-top: 30px;
+  }
+  

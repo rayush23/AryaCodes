@@ -1,0 +1,153 @@
+:root {
+  --color-bg: #f5f6fa;
+  --color-card: #ffffff;
+  --color-primary: #2c3e50;
+  --color-secondary: #18bc9c;
+  --color-accent: #e74c3c;
+  --color-text: #34495e;
+  --color-text-light: #7f8c8d;
+  --color-border: #dfe6e9;
+  --font-base: 'Roboto', sans-serif;
+  --font-mono: 'Source Code Pro', monospace;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-base);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.6;
+  padding: 2rem;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: var(--color-primary);
+  margin-bottom: 0.5rem;
+}
+
+header nav a {
+  color: var(--color-secondary);
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+header nav a:hover {
+  color: var(--color-primary);
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  background: var(--color-card);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+thead {
+  background-color: var(--color-secondary);
+}
+
+thead th {
+  padding: 1rem;
+  color: #fff;
+  font-weight: 600;
+  text-align: left;
+}
+
+tbody tr {
+  border-bottom: 1px solid var(--color-border);
+}
+
+tbody tr:last-child {
+  border-bottom: none;
+}
+
+tbody td {
+  padding: 1rem;
+  vertical-align: top;
+}
+
+/* Details JSON styling */
+.payload pre {
+  font-family: var(--font-mono);
+  background: var(--color-bg);
+  padding: 0.75rem;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  color: var(--color-text-light);
+  margin: 0;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+/* Action buttons */
+.btn-approve,
+.btn-reject {
+  display: inline-block;
+  padding: 0.5rem 0.75rem;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-approve {
+  background-color: var(--color-secondary);
+}
+
+.btn-approve:hover {
+  background-color: #1abc9c;
+}
+
+.btn-reject {
+  background-color: var(--color-accent);
+}
+
+.btn-reject:hover {
+  background-color: #c0392b;
+}
+
+p.no-requests {
+  text-align: center;
+  padding: 2rem;
+  color: var(--color-text-light);
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 1rem;
+  }
+
+  thead th,
+  tbody td {
+    padding: 0.75rem;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+}
