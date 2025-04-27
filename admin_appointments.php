@@ -1,6 +1,6 @@
 <?php
 // admin_appointments.php
-include 'header.php'; // purely PHP: session_start() guard + isAdmin(), etc.
+include 'header.php'; 
 
 if (!isAdmin()) {
     header('Location: login.php');
