@@ -8,7 +8,6 @@ if (session_status() === PHP_SESSION_NONE) {
   session_start();
 }
 
-// 1) Database connection (uses your existing db_connection.php)
 require_once 'db_connection.php';
 
 $error = '';
