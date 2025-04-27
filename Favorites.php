@@ -1,7 +1,4 @@
 <?php
-// Favorites.php – combined JSON endpoint + “My Favorites” page
-
-// 1) Always start the session and open your DB connection first
 session_start();
 require_once 'db_connection.php';  // defines $conn
 
@@ -50,8 +47,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $conn->close();
     exit;
 }
-
-// 3) From here down is your GET-only page
 
 // Redirect non-clients before any HTML
 require_once 'header.php';     // this defines isLoggedIn(), isClient(), nav, etc.
