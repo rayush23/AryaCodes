@@ -1,6 +1,5 @@
 <?php
-// admin_dashboard.php – Main Admin landing page
-include 'header.php';            // purely PHP session+helpers
+include 'header.php';           
 require_once 'db_connection.php';
 
 // Only Admins can access
