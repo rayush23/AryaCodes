@@ -5,8 +5,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $email = htmlspecialchars($_POST['email']);
     $message = htmlspecialchars($_POST['message']);
 
-    // Assume message is being sent via email (you'll need to configure your mail server)
-    $to = 'info@brajproperty.com'; // Replace with your email
+    $to = 'info@brajproperty.com'; 
     $subject = "New contact form message from $name";
     $body = "Name: $name\nEmail: $email\n\nMessage:\n$message";
     $headers = "From: $email";
