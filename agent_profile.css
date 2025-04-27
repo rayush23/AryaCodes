@@ -1,6 +1,4 @@
-/* agent_profile.css: Minimalistic, classy styles for Agent Dashboard */
 
-/* Reset & Base */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -20,8 +18,7 @@
   a:hover {
     color: #1F5FB3;
   }
-  
-  /* Button styles */
+
   .btn {
     display: inline-block;
     padding: 0.5rem 1rem;
@@ -50,8 +47,7 @@
     background-color: #D67A39;
     color: #fff;
   }
-  
-  /* Header */
+
   header {
     background-color: #ffffff;
     padding: 1rem 2rem;
@@ -70,15 +66,14 @@
   nav ul li {
     font-size: 0.9rem;
   }
-  
-  /* Main layout */
+
   main {
     max-width: 1200px;
     margin: 0 auto 2rem;
     padding: 0 1rem;
   }
   
-  /* Section headings */
+
   section h2 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
@@ -86,7 +81,6 @@
     padding-bottom: 0.5rem;
   }
   
-  /* Property list grid */
   .property-list {
     display: grid;
     gap: 1.5rem;
@@ -125,7 +119,6 @@
     margin: 0.75rem 1rem 1rem;
   }
   
-  /* Requests table */
   table {
     width: 100%;
     border-collapse: collapse;
@@ -143,8 +136,6 @@
   tbody tr:nth-child(even) {
     background-color: #fbfbfb;
   }
-  
-  /* Footer */
   footer {
     text-align: center;
     padding: 1rem 0;
