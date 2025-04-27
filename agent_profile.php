@@ -1,5 +1,4 @@
 <?php
-// agent_profile.php – Agent dashboard: list your properties and view your requests
 include 'header.php';
 require_once 'db_connection.php';
 
@@ -56,7 +55,7 @@ $reqStmt->close();
     </header>
 
     <main>
-        <!-- Your Properties -->
+        <!-- Properties -->
         <section>
             <h2>Your Properties</h2>
             <?php if ($propResult && $propResult->num_rows): ?>
@@ -81,7 +80,7 @@ $reqStmt->close();
             <?php endif; ?>
         </section>
 
-        <!-- Your Requests -->
+        <!-- Requests -->
         <section>
             <h2>Your Property Requests</h2>
             <?php if ($reqResult && $reqResult->num_rows): ?>
