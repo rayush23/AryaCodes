@@ -2,7 +2,7 @@
 // pending_requests.php – Admin view of pending property requests with AJAX-enabled Approve/Reject + CRUD
 require_once 'db_connection.php';
 session_start();
-include 'header.php';    // provides isAdmin(), isLoggedIn(), etc.
+include 'header.php';    
 
 // Only Admins
 if (!isAdmin()) {
@@ -27,7 +27,7 @@ function getLocationId($city, $conn) {
 }
 
 // AJAX handler: process request and return JSON
-// 🟢 AJAX handler: approve or reject
+//  AJAX handler: approve or reject
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && !empty($_POST['ajax'])) {
     header('Content-Type: application/json');
     $rid           = (int)($_POST['request_id'] ?? 0);
