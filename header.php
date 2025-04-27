@@ -11,7 +11,6 @@ $meId   = $_SESSION['user_id']   ?? null;
 $meName = $_SESSION['username']  ?? '';
 $meType = $_SESSION['UserType']  ?? '';  // 'Admin', 'Agent', or 'Client'
 
-// 3) Convenience functions (only declare if not already)
 if (! function_exists('isClient')) {
     function isClient()   { global $meType; return $meType === 'Client'; }
 }
