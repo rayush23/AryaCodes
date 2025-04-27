@@ -25,6 +25,16 @@ header .logo h1 {
     text-shadow: 2px 2px 0px #34495e; /* Lighter blue shadow for depth */
 }
 
+/* Ensure logo link is white always */
+header .logo h1 a,
+header .logo h1 a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+header .logo h1 a:hover {
+    color: #bfc9d9; /* subtle light gray hover */
+}
+
 /* Navigation menu */
 nav ul {
     list-style: none;
@@ -55,7 +65,6 @@ nav ul li a:hover {
     border-color: #bfc9d9; /* Slightly lighter border color on hover */
     color: #fff;
 }
-
 
 /* Account Details Section */
 .account-details {
@@ -128,4 +137,3 @@ footer .social-buttons a {
 footer .social-buttons a:hover {
     color: #bfc9d9; /* Light gray on hover */
 }
-
