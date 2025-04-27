@@ -22,6 +22,7 @@ $result = $stmt->get_result();
 
 if ($result->num_rows == 1) {
     $user = $result->fetch_assoc();
+    $role = $user['UserType'];
 } else {
     session_unset();
     session_destroy();
@@ -41,11 +42,11 @@ if ($result->num_rows == 1) {
 <body>
     <header>
         <div class="logo">
-            <h1>Braj Property</h1>
+            <h1><a href="index.php" class="logo">Braj Property</a></h1>
         </div>
         <header>
   <div class="site-container">
-    <a href="index.php" class="logo">Braj Property</a>
+    
     <nav>
       <ul class="nav-list">
         <li><a href="index.php">Home</a></li>
