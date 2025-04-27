@@ -1,8 +1,8 @@
-/* General settings */
+
 body {
-    font-family: 'Courier New', Courier, monospace; /* Retro font */
-    background-color: #f2f0e6; /* Light beige background */
-    color: #333; /* Dark text for readability */
+    font-family: 'Courier New', Courier, monospace; 
+    background-color: #f2f0e6; 
+    color: #333; 
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -10,7 +10,7 @@ body {
 
 /* Header */
 header {
-    background-color: #2c3e50; /* Deep blue instead of yellow */
+    background-color: #2c3e50; 
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -19,23 +19,21 @@ header {
 header .logo h1 {
     font-size: 3em;
     font-weight: bold;
-    color: #fff; /* White text to contrast with blue background */
+    color: #fff; 
     letter-spacing: 2px;
     text-transform: uppercase;
-    text-shadow: 2px 2px 0px #34495e; /* Lighter blue shadow for depth */
+    text-shadow: 2px 2px 0px #34495e; 
 }
 
-/* Ensure logo link is white always */
 header .logo h1 a,
 header .logo h1 a:visited {
     color: #fff;
     text-decoration: none;
 }
 header .logo h1 a:hover {
-    color: #bfc9d9; /* subtle light gray hover */
+    color: #bfc9d9; 
 }
 
-/* Navigation menu */
 nav ul {
     list-style: none;
     padding: 0;
@@ -54,27 +52,27 @@ nav ul li a {
     color: #fff;
     padding: 10px 20px;
     background-color: #2c3e50;
-    border: 2px solid #fff; /* White border around the buttons */
+    border: 2px solid #fff; 
     border-radius: 5px;
     text-transform: uppercase;
-    transition: background-color 0.3s, border-color 0.3s; /* Smooth transition */
+    transition: background-color 0.3s, border-color 0.3s;
 }
 
 nav ul li a:hover {
-    background-color: #34495e; /* Lighter blue on hover */
-    border-color: #bfc9d9; /* Slightly lighter border color on hover */
+    background-color: #34495e; 
+    border-color: #bfc9d9; 
     color: #fff;
 }
 
-/* Account Details Section */
+
 .account-details {
     max-width: 600px;
     margin: 40px auto;
     padding: 20px;
-    background-color: #eaf0f4; /* Light blue background for content */
+    background-color: #eaf0f4; 
     border: 2px solid #2c3e50;
     border-radius: 10px;
-    box-shadow: 5px 5px 0px #34495e; /* Lighter blue shadow */
+    box-shadow: 5px 5px 0px #34495e; 
 }
 
 .account-details h2 {
@@ -99,7 +97,7 @@ nav ul li a:hover {
     padding: 8px 16px;
     border: 2px solid #2c3e50;
     border-radius: 5px;
-    background-color: #eaf0f4; /* Light blue background for buttons */
+    background-color: #eaf0f4; 
     display: inline-block;
     margin-top: 20px;
 }
@@ -109,9 +107,8 @@ nav ul li a:hover {
     color: #fff;
 }
 
-/* Footer */
 footer {
-    background-color: #2c3e50; /* Deep blue footer */
+    background-color: #2c3e50; 
     color: #fff;
     padding: 20px;
     text-align: center;
