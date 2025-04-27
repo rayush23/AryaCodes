@@ -1,4 +1,3 @@
-/* login.css: Simple, clean styles with footer pinned to bottom */
 
 /* Reset & Base */
 * {
@@ -13,9 +12,9 @@
     color: #333;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* space between form and footer */
+    justify-content: space-between; 
     align-items: center;
-    min-height: 100vh;            /* full viewport height */
+    min-height: 100vh;           
   }
   
   /* Container centered vertically */
