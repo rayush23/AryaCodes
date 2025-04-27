@@ -1,6 +1,4 @@
-/* admin_dashboard.css */
 
-/* Color Palette */
 :root {
   --bg: #f4f7f9;
   --card-bg: #ffffff;
@@ -11,7 +9,7 @@
   --border: #e0e0e0;
 }
 
-/* Reset & Base */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -24,7 +22,6 @@ body {
   line-height: 1.6;
 }
 
-/* Dashboard Header */
 .dashboard-header {
   background-color: var(--card-bg);
   border-bottom: 1px solid var(--border);
@@ -58,7 +55,7 @@ body {
   background: var(--primary);
   color: #fff;
 }
-/* Logout button */
+
 .logout-btn {
   background: var(--primary);
   color: #fff;
@@ -71,14 +68,14 @@ body {
   background: var(--primary-dark);
 }
 
-/* Main Container */
+
 main {
   max-width: 1100px;
   margin: 40px auto;
   padding: 0 20px;
 }
 
-/* Overview */
+
 .dashboard-overview h2 {
   color: var(--primary-dark);
   margin-bottom: 8px;
@@ -87,7 +84,7 @@ main {
   color: var(--light-text);
 }
 
-/* Dashboard Cards Grid */
+
 .dashboard-cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -95,7 +92,7 @@ main {
   margin-top: 30px;
 }
 
-/* Individual Card */
+
 .card {
   background-color: var(--card-bg);
   border-radius: 8px;
@@ -128,7 +125,7 @@ main {
   background-color: var(--primary-dark);
 }
 
-/* Tables (if any) */
+
 #admin-appt-table {
   width: 100%;
   border-collapse: separate;
@@ -152,7 +149,6 @@ main {
   background-color: #f0f6fb;
 }
 
-/* Cancel Button (re-use for other actions) */
 .cancel-btn {
   background-color: #e74c3c;
   color: #fff;
