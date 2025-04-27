@@ -1,4 +1,4 @@
-/* General page styling */
+
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f8f9fa;
@@ -40,7 +40,6 @@ header h1 {
     background-color: #c82333;
 }
 
-/* Container styling */
 .container {
     max-width: 1000px;
     margin: 30px auto;
@@ -63,7 +62,7 @@ p {
     font-weight: bold;
 }
 
-/* Table styling */
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -107,7 +106,7 @@ table a:hover {
     text-decoration: underline;
 }
 
-/* Button styling for actions (edit/delete) */
+
 .action-buttons {
     display: flex;
     gap: 10px;
@@ -135,7 +134,6 @@ button.delete:hover {
     background-color: #c82333;
 }
 
-/* Form styling */
 form {
     margin: 20px 0;
 }
@@ -173,7 +171,6 @@ form button:hover {
     background-color: #0056b3;
 }
 
-/* Footer styling */
 footer {
     background-color: #343a40;
     color: #fff;
@@ -186,7 +183,7 @@ footer p {
     margin: 0;
 }
 
-/* Responsive design */
+
 @media (max-width: 768px) {
     .container {
         padding: 15px;
